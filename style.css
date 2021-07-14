@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.background-teal {
+  background-color: #264653;
+}
+
+.text-white {
+  color: #fff;
+}
