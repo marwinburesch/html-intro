@@ -5,6 +5,28 @@
 body {
   font-family: sans-serif;
   margin: 0;
+  background-color: #e9c46a;
+}
+
+.main-header {
+  padding: 4rem;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 17%,
+    rgba(233, 196, 106, 1) 36%,
+    rgba(233, 196, 106, 1) 100%
+  );
+}
+
+.card {
+  margin: 1rem;
+  margin-bottom: 4rem;
+  padding: 1rem;
+  background-color: antiquewhite;
+  box-shadow: 0 5px 5px rgba(231, 111, 81, 0.5);
+  border: 5px solid #e76f51;
+  border-radius: 25px;
 }
 
 .card--image {
