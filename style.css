@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 
-.background-teal {
-  background-color: #264653;
+body {
+  font-family: sans-serif;
+  margin: 0;
 }
 
 .text-white {
