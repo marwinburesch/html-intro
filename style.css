@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -17,6 +19,8 @@ body {
     rgba(233, 196, 106, 1) 36%,
     rgba(233, 196, 106, 1) 100%
   );
+  font-family: "Zen Tokyo Zoo", cursive;
+  font-size: 3rem;
 }
 
 .card {
