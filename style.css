@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #e9c46a;
+  color: #264653;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header {
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 17%,
+    rgba(233, 196, 106, 1) 36%,
+    rgba(233, 196, 106, 1) 100%
+  );
+  font-family: "Zen Tokyo Zoo", cursive;
+  font-size: 3rem;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, auto);
+  gap: 4rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  margin: 0 4rem;
+  padding: 1rem;
+  background-color: antiquewhite;
+  box-shadow: 0 5px 5px rgba(231, 111, 81, 0.5);
+  border: 5px solid #e76f51;
+  border-radius: 25px;
+}
+
+.card--image {
+  width: 200px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+}
