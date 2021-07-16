@@ -8,10 +8,16 @@ body {
   font-family: sans-serif;
   margin: 0;
   background-color: #e9c46a;
+  color: #264653;
 }
 
-.main-header {
-  padding: 4rem;
+.grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header {
+  padding: 2rem;
   text-align: center;
   background: linear-gradient(
     180deg,
@@ -23,9 +29,15 @@ body {
   font-size: 3rem;
 }
 
+.grid-main {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, auto);
+  gap: 4rem;
+  margin-bottom: 2rem;
+}
+
 .card {
-  margin: 1rem;
-  margin-bottom: 4rem;
+  margin: 0 4rem;
   padding: 1rem;
   background-color: antiquewhite;
   box-shadow: 0 5px 5px rgba(231, 111, 81, 0.5);
